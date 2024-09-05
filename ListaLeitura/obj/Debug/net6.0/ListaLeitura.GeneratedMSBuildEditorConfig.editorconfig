@@ -1,0 +1,53 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ListaLeitura
+build_property.RootNamespace = ListaLeitura
+build_property.ProjectDir = D:\Projetos ASP\App ListaLeitura\ListaLeitura\ListaLeitura\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Projetos ASP\App ListaLeitura\ListaLeitura\ListaLeitura
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Projetos ASP/App ListaLeitura/ListaLeitura/ListaLeitura/Views/ListaLeitura/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFMZWl0dXJhXENhZGFzdHJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos ASP/App ListaLeitura/ListaLeitura/ListaLeitura/Views/ListaLeitura/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFMZWl0dXJhXEVkaXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos ASP/App ListaLeitura/ListaLeitura/ListaLeitura/Views/ListaLeitura/Excluir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFMZWl0dXJhXEV4Y2x1aXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos ASP/App ListaLeitura/ListaLeitura/ListaLeitura/Views/ListaLeitura/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFMZWl0dXJhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos ASP/App ListaLeitura/ListaLeitura/ListaLeitura/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos ASP/App ListaLeitura/ListaLeitura/ListaLeitura/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos ASP/App ListaLeitura/ListaLeitura/ListaLeitura/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos ASP/App ListaLeitura/ListaLeitura/ListaLeitura/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos ASP/App ListaLeitura/ListaLeitura/ListaLeitura/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-seqdlu0q4k

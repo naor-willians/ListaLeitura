@@ -1,0 +1,46 @@
+﻿@model IEnumerable<ListaLeituraModel>
+
+<div class="container">
+    
+    <div class="d-flex justify-content-between align-items-center mb-5">
+        <h1>Lista de Leituras</h1>
+        <a class="btn btn-success mx-2" asp-controller="ListaLeitura" asp-action="Cadastrar"><i class="bi bi-file-earmark-plus mx-2"></i>Cadastrar</a>
+    </div>
+
+    @if(TempData["MensagemSucesso"] != null)
+    {
+        <div class="alert alert-success text-black" role="row">
+            @TempData["MensagemSucesso"]
+        </div>
+    }
+
+    <table id="ListaLeitura" class="table table-light table-hover mt-5">
+        <thead>
+            <tr>
+                <th scope="col">Nome do Livro</th>
+                <th scope="col">Autor</th>
+                <th scope="col">Status</th>
+                <th scope="col">Ano da Leitura</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(Model != null)
+            {
+                @foreach(var lista in Model)
+                {
+                    <tr>
+                        <th scope="row">@lista.Nome</th>
+                        <td>@lista.Autor</td>
+                        <td>@lista.Status</td>
+                        <td>@lista.AnoLeitura</td>
+                        <td>
+                            <a class="btn btn-warning mx-2" asp-controller="ListaLeitura" asp-action="Editar" asp-route-id="@lista.Id"><i class="bi bi-pencil-square mx-2"></i>Editar</a>
+                            <a class="btn btn-danger mx-2" asp-controller="ListaLeitura" asp-action="Excluir" asp-route-id="@lista.Id"><i class="bi bi-trash3-fill mx-2"></i>Excluir</a>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
